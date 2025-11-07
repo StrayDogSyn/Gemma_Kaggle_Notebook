@@ -1,328 +1,653 @@
-<div align="center"># Gemma Kaggle Notebook - 5-Day AI Agents Intensive Course
+# Gemma AI Agents Course<div align="center"># Gemma Kaggle Notebook - 5-Day AI Agents Intensive Course
 
 
 
-# 🤖 AI Agents Intensive CourseThis repository contains materials and notebooks for Google's 5-Day AI Agents Intensive Course (November 9-13, 2025), focusing on the **Gemma** family of open-source language models.
+<div align="center">
 
-### Google's 5-Day Deep Dive into Gemma Models
 
-## 🎯 Project Overview
 
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)# 🤖 AI Agents Intensive CourseThis repository contains materials and notebooks for Google's 5-Day AI Agents Intensive Course (November 9-13, 2025), focusing on the **Gemma** family of open-source language models.
+
+![Keras](https://img.shields.io/badge/Keras-3.0+-D00000?style=for-the-badge&logo=keras&logoColor=white)
+
+![JAX](https://img.shields.io/badge/JAX-Latest-9cf?style=for-the-badge)### Google's 5-Day Deep Dive into Gemma Models
+
+![Google AI](https://img.shields.io/badge/Google_AI-Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+
+![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)## 🎯 Project Overview
+
+
+
+**Google's 5-Day AI Agents Intensive Course**  [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+
+*Building production-ready AI agents with Gemma open-source models*
 
 [![Keras](https://img.shields.io/badge/Keras-3.0+-D00000?style=for-the-badge&logo=keras&logoColor=white)](https://keras.io/)This project demonstrates how to use Google's Gemma models - lightweight, state-of-the-art open language models built with the same technology as Gemini. The notebooks cover everything from basic setup to advanced text generation, question answering, and fine-tuning.
 
+[Course Documentation](docs/COURSE_INFO.md) · [Technical Reference](docs/GEMMA_INFO.md) · [Quick Reference](docs/QUICK_REFERENCE.md)
+
 [![JAX](https://img.shields.io/badge/JAX-Latest-9cf?style=for-the-badge)](https://github.com/google/jax)
+
+</div>
 
 [![Google AI](https://img.shields.io/badge/Google_AI-Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)## 📚 Repository Contents
 
+---
+
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+
+## Overview
 
 ### Documentation
 
+This repository documents a comprehensive journey through **Google's 5-Day AI Agents Intensive Course** (November 9-13, 2025), focusing on building intelligent agents using **Gemma** - Google's family of lightweight, state-of-the-art open language models built with the same technology as Gemini.
+
 [![Kaggle](https://img.shields.io/badge/Kaggle-Course-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com)- **`COURSE_INFO.md`** - Complete course information, schedule, and setup checklist
+
+**Gemma Models** bring production-grade AI capabilities to resource-constrained environments with decoder-only transformer architecture trained on 6 trillion tokens across web content, code, and mathematics.
 
 [![Discord](https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/kaggle)- **`GEMMA_INFO.md`** - Technical reference for Gemma models (architecture, benchmarks, best practices)
 
+### Course Objectives
+
 [![Status](https://img.shields.io/badge/Status-Active_Learning-success?style=for-the-badge)]()- **`README.md`** - This file
 
+Master Gemma model deployment and fine-tuning  
 
+Build production-ready AI agents with memory and planning  
 
-*Building production-ready AI agents with Google's open-source Gemma models*### Notebooks
+Implement tool-calling and multi-agent orchestration  
+
+Apply responsible AI practices and safety measures  *Building production-ready AI agents with Google's open-source Gemma models*### Notebooks
+
+Complete capstone project demonstrating learned concepts
 
 - **`setup.ipynb`** - Environment setup and configuration verification
 
-[Course Info](COURSE_INFO.md) • [Technical Docs](GEMMA_INFO.md) • [Getting Started](GETTING_STARTED.md) • [Quick Reference](QUICK_REFERENCE.md)- **`gemma_quickstart.ipynb`** - Comprehensive guide to using Gemma models with Keras Hub
-
-
-
-</div>### Configuration
-
-- **`requirements.txt`** - Python package dependencies
-
----- **`.env.example`** - Template for environment variables
-
-- **`.gitignore`** - Git ignore rules for sensitive data
-
-## 📋 Table of Contents
-
-## 🚀 Quick Start
-
-- [About](#-about)
-
-- [Features](#-features)### 1. Installation
-
-- [Tech Stack](#-tech-stack)
-
-- [Project Structure](#-project-structure)```bash
-
-- [Quick Start](#-quick-start)# Clone the repository
-
-- [Usage Examples](#-usage-examples)git clone https://github.com/StrayDogSyn/Gemma_Kaggle_Notebook.git
-
-- [Course Schedule](#-course-schedule)cd Gemma_Kaggle_Notebook
-
-- [API Best Practices](#-api-best-practices)
-
-- [Model Performance](#-model-performance)# Install dependencies
-
-- [Resources](#-resources)pip install -r requirements.txt
-
-- [Contributing](#-contributing)```
-
-- [License](#-license)
-
-### 2. Configuration
-
 ---
 
-```bash
+[Course Info](COURSE_INFO.md) • [Technical Docs](GEMMA_INFO.md) • [Getting Started](GETTING_STARTED.md) • [Quick Reference](QUICK_REFERENCE.md)- **`gemma_quickstart.ipynb`** - Comprehensive guide to using Gemma models with Keras Hub
 
-## 🎯 About# Copy environment template
+## Project Structure
 
-cp .env.example .env
 
-This repository documents my journey through **Google's 5-Day AI Agents Intensive Course** (November 9-13, 2025), a comprehensive deep-dive into building intelligent agents using the **Gemma** family of open-source language models.
-
-# Edit .env and add your Google AI Studio API key
-
-### What is Gemma?# Get your key from: https://aistudio.google.com/app/apikey
 
 ```
 
-Gemma represents Google's commitment to open AI development—a family of lightweight, state-of-the-art LLMs built with the same research and technology that powers Gemini. These models bring production-grade AI capabilities to resource-constrained environments.
+gemma-kaggle-notebook/</div>### Configuration
 
-### 3. Run the Setup Notebook
+├── notebooks/           # Jupyter notebooks for hands-on learning
 
-**Key Characteristics:**
+│   ├── setup.ipynb                 # Environment setup & verification- **`requirements.txt`** - Python package dependencies
 
-- 🏗️ **Architecture**: Decoder-only transformer (text-to-text)Open `setup.ipynb` in Jupyter or VS Code and run through the cells to verify your environment.
+│   ├── gemma_quickstart.ipynb      # Gemma models quickstart guide
 
-- 📊 **Training**: 6 trillion tokens (web, code, mathematics)
-
-- ⚡ **Performance**: Optimized for JAX on TPUs### 4. Start with Gemma
-
-- 🌍 **Open Source**: Commercially permissive licensing
-
-- 🎯 **Variants**: 2B and 7B parameter models (base + instruction-tuned)Open `gemma_quickstart.ipynb` to begin working with Gemma models.
-
-
-
-### Course Objectives## 📋 Prerequisites
-
-
-
-- ✅ Master Gemma model deployment and fine-tuning### System Requirements
-
-- ✅ Build production-ready AI agents with memory and planning- **RAM**: 8GB minimum (16GB recommended for Gemma 2B)
-
-- ✅ Implement tool-calling and multi-agent orchestration- **Storage**: 10GB free space
-
-- ✅ Apply responsible AI practices and safety measures- **Python**: 3.8 or higher
-
-- ✅ Complete capstone project demonstrating learned concepts
-
-### Accounts Needed
-
----- ✅ [Kaggle Account](https://www.kaggle.com) (phone verified)
-
-- ✅ [Google AI Studio Account](https://aistudio.google.com) (with API key)
-
-## ✨ Features- ✅ [Discord Account](https://discord.gg/kaggle) (linked to Kaggle)
-
-
-
-### 🛠️ Development Tools## 🧠 About Gemma Models
-
-- **Interactive Notebooks**: Jupyter-based learning environment
-
-- **Environment Management**: Python virtual environment with dependency isolation**Gemma** is Google's family of lightweight, open-source LLMs:
-
-- **API Integration**: Google AI Studio and Keras Hub connectivity
-
-- **Error Handling**: Robust retry logic with exponential backoff- **Architecture**: Decoder-only transformer
-
-- **Configuration**: Secure credential management with python-dotenv- **Variants**: 2B and 7B parameter models
-
-- **Training**: 6 trillion tokens (web, code, math)
-
-### 📚 Learning Resources- **Capabilities**: Text generation, Q&A, summarization, code generation
-
-- **Comprehensive Documentation**: 6 markdown guides covering all aspects- **Backends**: JAX, TensorFlow, or PyTorch (via Keras 3)
-
-- **Code Examples**: 3 production-ready notebooks with 30+ code sections
-
-- **Daily Templates**: Structured note-taking for 5-day course### Model Performance (Gemma 2B)
-
-- **Best Practices**: API usage patterns, prompt engineering, safety guidelines
-
-| Task | Benchmark | Score |
-
-### 🔒 Production-Ready Features|------|-----------|-------|
-
-- Rate limit handling with exponential backoff| General Knowledge | MMLU | 42.3 |
-
-- Environment detection (Kaggle vs. local)| Commonsense | HellaSwag | 71.4 |
-
-- Secure API key management| Code Generation | HumanEval | 22.0 |
-
-- Multi-backend support (JAX/TensorFlow/PyTorch)| Math | GSM8K | 17.7 |
-
-- Comprehensive error messages and debugging tips
-
-## 📖 Usage Examples
-
----
-
-### Basic Text Generation
-
-## 🔧 Tech Stack
-
-```python
-
-<table>import keras_hub
-
-<tr>
-
-<td valign="top" width="50%"># Load model
-
-gemma_lm = keras_hub.models.GemmaCausalLM.from_preset("gemma_1.1_instruct_2b_en")
-
-### Core Framework
-
-- **Keras 3** - Multi-backend deep learning# Generate text
-
-- **Keras Hub** - Pre-trained model libraryoutput = gemma_lm.generate("Explain machine learning:", max_length=100)
-
-- **JAX** - High-performance computing (recommended)print(output)
-
-- **TensorFlow** - Alternative backend```
-
-- **PyTorch** - Alternative backend
-
-### Question Answering
-
-</td>
-
-<td valign="top" width="50%">```python
-
-question = "What is the capital of France?"
-
-### AI & APIsanswer = gemma_lm.generate(question, max_length=50)
-
-- **Google Generative AI SDK** - Gemini API accessprint(answer)
-
-- **Gemma Models** - Open-source LLMs```
-
-- **Python 3.8+** - Core language
-
-- **NumPy/Pandas** - Data manipulation### Batch Processing
-
-- **Jupyter** - Interactive development
-
-```python
-
-</td>prompts = [
-
-</tr>    "Write a Python function to sort a list:",
-
-</table>    "Explain quantum computing:",
-
-    "Summarize the theory of relativity:"
-
-### Development Environment]
-
-
-
-```textoutputs = gemma_lm.generate(prompts, max_length=100)
-
-├── Virtual Environment (.venv)for prompt, output in zip(prompts, outputs):
-
-├── Environment Variables (.env)    print(f"Q: {prompt}\nA: {output}\n")
-
-├── Package Management (pip, requirements.txt)```
-
-└── Version Control (Git, .gitignore)
-
-```## 🎓 Course Information
-
-
-
----### Schedule
-
-- **Start**: Sunday, November 9, 2025
-
-## 📁 Project Structure- **Duration**: 5 days
-
-- **Live Sessions**: Monday-Friday, 11 AM PT / 8 PM CET / 12:30 AM IST
-
-```text- **Platform**: [Kaggle](https://www.kaggle.com)
-
-Gemma_Kaggle_Notebook/
-
-├── 📓 Notebooks### Daily Format
-
-│   ├── setup.ipynb                 # Environment verification & API testing1. New assignments posted daily
-
-│   ├── gemma_quickstart.ipynb      # Comprehensive Gemma tutorial2. Materials include whitepapers, codelabs, podcasts
-
-│   └── ai_agents_course.ipynb      # 5-day course structure3. Live YouTube sessions with Google researchers
-
-│4. Discord discussions and Q&A
-
-├── 📚 Documentation5. Optional capstone project on Day 5
-
-│   ├── README.md                   # This file
-
-│   ├── COURSE_INFO.md              # Course schedule & checklist### Discord Channels
-
-│   ├── GEMMA_INFO.md               # Technical reference- `#5dgai-announcements` - Official announcements
-
-│   ├── GETTING_STARTED.md          # Setup guide- `#5dgai-introductions` - Meet other participants
-
-│   ├── PROJECT_SUMMARY.md          # Progress tracking- `#5dgai-question-forum` - Ask questions
-
-│   └── QUICK_REFERENCE.md          # Command reference- `#5dgai-general-chat` - General discussion
+│   └── ai_agents_course.ipynb      # Course exercises & experiments---- **`.env.example`** - Template for environment variables
 
 │
 
-├── ⚙️ Configuration## 🛠️ Key Technologies
+├── docs/                # Comprehensive documentation- **`.gitignore`** - Git ignore rules for sensitive data
 
-│   ├── requirements.txt            # Python dependencies
+│   ├── COURSE_INFO.md              # Complete course information
 
-│   ├── .env.example                # Environment template- **Keras 3** - Multi-backend deep learning framework
+│   ├── GEMMA_INFO.md               # Technical model reference## 📋 Table of Contents
 
-│   ├── .gitignore                  # Git exclusions- **Keras Hub** - Pre-trained model library
+│   ├── GETTING_STARTED.md          # Setup guide
+
+│   ├── QUICK_REFERENCE.md          # API quick reference## 🚀 Quick Start
+
+│   └── PROJECT_SUMMARY.md          # Project overview
+
+│- [About](#-about)
+
+├── scripts/             # Utility scripts
+
+│   ├── install.py                  # Automated environment setup- [Features](#-features)### 1. Installation
+
+│   └── fix_markdown.py             # Documentation utilities
+
+│- [Tech Stack](#-tech-stack)
+
+├── config/              # Configuration templates
+
+│   └── .env.example                # Environment variables template- [Project Structure](#-project-structure)```bash
+
+│
+
+├── requirements.txt     # Python dependencies- [Quick Start](#-quick-start)# Clone the repository
+
+├── .gitignore          # Git ignore rules
+
+└── LICENSE             # MIT License- [Usage Examples](#-usage-examples)git clone https://github.com/StrayDogSyn/Gemma_Kaggle_Notebook.git
+
+```
+
+- [Course Schedule](#-course-schedule)cd Gemma_Kaggle_Notebook
+
+---
+
+- [API Best Practices](#-api-best-practices)
+
+## Quick Start
+
+- [Model Performance](#-model-performance)# Install dependencies
+
+### Prerequisites
+
+- [Resources](#-resources)pip install -r requirements.txt
+
+**System Requirements**
+
+- [Contributing](#-contributing)```
+
+RAM: 8GB minimum (16GB recommended for Gemma 2B)  
+
+Storage: 10GB free space  - [License](#-license)
+
+Python: 3.8 or higher  
+
+OS: Windows, macOS, or Linux### 2. Configuration
+
+
+
+**Required Accounts**---
+
+
+
+[Kaggle](https://www.kaggle.com) - Phone verified  ```bash
+
+[Google AI Studio](https://aistudio.google.com) - API key required  
+
+[Discord](https://discord.gg/kaggle) - Linked to Kaggle account## 🎯 About# Copy environment template
+
+
+
+### Installationcp .env.example .env
+
+
+
+**Option 1: Automated Setup (Recommended)**This repository documents my journey through **Google's 5-Day AI Agents Intensive Course** (November 9-13, 2025), a comprehensive deep-dive into building intelligent agents using the **Gemma** family of open-source language models.
+
+
+
+```bash# Edit .env and add your Google AI Studio API key
+
+git clone https://github.com/StrayDogSyn/Gemma_Kaggle_Notebook.git
+
+cd Gemma_Kaggle_Notebook### What is Gemma?# Get your key from: https://aistudio.google.com/app/apikey
+
+python scripts/install.py
+
+``````
+
+
+
+**Option 2: Manual Setup**Gemma represents Google's commitment to open AI development—a family of lightweight, state-of-the-art LLMs built with the same research and technology that powers Gemini. These models bring production-grade AI capabilities to resource-constrained environments.
+
+
+
+```bash### 3. Run the Setup Notebook
+
+# Clone repository
+
+git clone https://github.com/StrayDogSyn/Gemma_Kaggle_Notebook.git**Key Characteristics:**
+
+cd Gemma_Kaggle_Notebook
+
+- 🏗️ **Architecture**: Decoder-only transformer (text-to-text)Open `setup.ipynb` in Jupyter or VS Code and run through the cells to verify your environment.
+
+# Create virtual environment
+
+python -m venv .venv- 📊 **Training**: 6 trillion tokens (web, code, mathematics)
+
+.venv\Scripts\activate  # Windows
+
+source .venv/bin/activate  # macOS/Linux- ⚡ **Performance**: Optimized for JAX on TPUs### 4. Start with Gemma
+
+
+
+# Install dependencies- 🌍 **Open Source**: Commercially permissive licensing
+
+pip install -r requirements.txt
+
+```- 🎯 **Variants**: 2B and 7B parameter models (base + instruction-tuned)Open `gemma_quickstart.ipynb` to begin working with Gemma models.
+
+
+
+### Configuration
+
+
+
+```bash### Course Objectives## 📋 Prerequisites
+
+# Copy environment template
+
+cp config/.env.example .env
+
+
+
+# Edit .env and add your Google AI Studio API key- ✅ Master Gemma model deployment and fine-tuning### System Requirements
+
+# Get your key from: https://aistudio.google.com/app/apikey
+
+```- ✅ Build production-ready AI agents with memory and planning- **RAM**: 8GB minimum (16GB recommended for Gemma 2B)
+
+
+
+### Verify Installation- ✅ Implement tool-calling and multi-agent orchestration- **Storage**: 10GB free space
+
+
+
+Open and run `notebooks/setup.ipynb` to verify your environment configuration.- ✅ Apply responsible AI practices and safety measures- **Python**: 3.8 or higher
+
+
+
+---- ✅ Complete capstone project demonstrating learned concepts
+
+
+
+## Usage Examples### Accounts Needed
+
+
+
+### Basic Text Generation---- ✅ [Kaggle Account](https://www.kaggle.com) (phone verified)
+
+
+
+```python- ✅ [Google AI Studio Account](https://aistudio.google.com) (with API key)
+
+import keras_hub
+
+## ✨ Features- ✅ [Discord Account](https://discord.gg/kaggle) (linked to Kaggle)
+
+# Load pre-trained Gemma model
+
+gemma_lm = keras_hub.models.GemmaCausalLM.from_preset("gemma_1.1_instruct_2b_en")
+
+
+
+# Generate text### 🛠️ Development Tools## 🧠 About Gemma Models
+
+output = gemma_lm.generate("Explain machine learning:", max_length=100)
+
+print(output)- **Interactive Notebooks**: Jupyter-based learning environment
+
+```
+
+- **Environment Management**: Python virtual environment with dependency isolation**Gemma** is Google's family of lightweight, open-source LLMs:
+
+### With Retry Logic
+
+- **API Integration**: Google AI Studio and Keras Hub connectivity
+
+```python
+
+import google.generativeai as genai- **Error Handling**: Robust retry logic with exponential backoff- **Architecture**: Decoder-only transformer
+
+from tenacity import retry, stop_after_attempt, wait_exponential
+
+- **Configuration**: Secure credential management with python-dotenv- **Variants**: 2B and 7B parameter models
+
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+
+- **Training**: 6 trillion tokens (web, code, math)
+
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
+
+def generate_with_retry(prompt):### 📚 Learning Resources- **Capabilities**: Text generation, Q&A, summarization, code generation
+
+    model = genai.GenerativeModel("gemini-1.5-flash")
+
+    response = model.generate_content(prompt)- **Comprehensive Documentation**: 6 markdown guides covering all aspects- **Backends**: JAX, TensorFlow, or PyTorch (via Keras 3)
+
+    return response.text
+
+- **Code Examples**: 3 production-ready notebooks with 30+ code sections
+
+result = generate_with_retry("Write a Python function to calculate fibonacci numbers")
+
+```- **Daily Templates**: Structured note-taking for 5-day course### Model Performance (Gemma 2B)
+
+
+
+### Batch Processing- **Best Practices**: API usage patterns, prompt engineering, safety guidelines
+
+
+
+```python| Task | Benchmark | Score |
+
+prompts = [
+
+    "Explain neural networks",### 🔒 Production-Ready Features|------|-----------|-------|
+
+    "What is reinforcement learning?",
+
+    "Describe transformer architecture"- Rate limit handling with exponential backoff| General Knowledge | MMLU | 42.3 |
+
+]
+
+- Environment detection (Kaggle vs. local)| Commonsense | HellaSwag | 71.4 |
+
+for prompt in prompts:
+
+    response = gemma_lm.generate(prompt, max_length=50)- Secure API key management| Code Generation | HumanEval | 22.0 |
+
+    print(f"Prompt: {prompt}\nResponse: {response}\n")
+
+```- Multi-backend support (JAX/TensorFlow/PyTorch)| Math | GSM8K | 17.7 |
+
+
+
+---- Comprehensive error messages and debugging tips
+
+
+
+## Course Schedule## 📖 Usage Examples
+
+
+
+| Day | Date | Topic | Deliverables |---
+
+|-----|------|-------|--------------|
+
+| **1** | Nov 9, 2025 | Gemma Introduction & Setup | Environment configured, first generation |### Basic Text Generation
+
+| **2** | Nov 10, 2025 | Advanced Prompting & Fine-tuning | Custom fine-tuned model |
+
+| **3** | Nov 11, 2025 | Agent Architecture & Memory | Working agent with memory |## 🔧 Tech Stack
+
+| **4** | Nov 12, 2025 | Tool Calling & Multi-Agent Systems | Multi-agent orchestration demo |
+
+| **5** | Nov 13, 2025 | Capstone Project & Best Practices | Complete capstone project |```python
+
+
+
+---<table>import keras_hub
+
+
+
+## Technology Stack<tr>
+
+
+
+**Core Framework**<td valign="top" width="50%"># Load model
+
+
+
+Keras 3 - Multi-backend deep learning framework  gemma_lm = keras_hub.models.GemmaCausalLM.from_preset("gemma_1.1_instruct_2b_en")
+
+Keras Hub - Pre-trained model library  
+
+JAX - High-performance numerical computing  ### Core Framework
+
+
+
+**AI & APIs**- **Keras 3** - Multi-backend deep learning# Generate text
+
+
+
+Google Generative AI SDK - Gemini API integration  - **Keras Hub** - Pre-trained model libraryoutput = gemma_lm.generate("Explain machine learning:", max_length=100)
+
+Gemma Models - Open-source language models  
+
+- **JAX** - High-performance computing (recommended)print(output)
+
+**Development Tools**
+
+- **TensorFlow** - Alternative backend```
+
+Jupyter - Interactive notebook environment  
+
+Python-dotenv - Environment variable management  - **PyTorch** - Alternative backend
+
+Tenacity - Retry logic and resilience  
+
+### Question Answering
+
+---
+
+</td>
+
+## API Best Practices
+
+<td valign="top" width="50%">```python
+
+### Rate Limit Handling
+
+question = "What is the capital of France?"
+
+```python
+
+# DO: Use exponential backoff### AI & APIsanswer = gemma_lm.generate(question, max_length=50)
+
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
+
+def safe_api_call(prompt):- **Google Generative AI SDK** - Gemini API accessprint(answer)
+
+    return model.generate_content(prompt)
+
+- **Gemma Models** - Open-source LLMs```
+
+# DON'T: Make rapid successive calls without error handling
+
+for i in range(100):- **Python 3.8+** - Core language
+
+    model.generate_content(prompt)  # May hit rate limits
+
+```- **NumPy/Pandas** - Data manipulation### Batch Processing
+
+
+
+### Error Handling- **Jupyter** - Interactive development
+
+
+
+| Error Type | Recommended Action |```python
+
+|------------|-------------------|
+
+| Rate Limit (429) | Exponential backoff, reduce request frequency |</td>prompts = [
+
+| Quota Exceeded | Implement request batching, use caching |
+
+| Invalid API Key | Verify credentials, regenerate key if needed |</tr>    "Write a Python function to sort a list:",
+
+| Network Timeout | Implement retry logic with timeout limits |
+
+</table>    "Explain quantum computing:",
+
+### Security Best Practices
+
+    "Summarize the theory of relativity:"
+
+Never commit API keys to version control  
+
+Use environment variables for sensitive data  ### Development Environment]
+
+Rotate API keys regularly  
+
+Implement request validation  
+
+Monitor usage and set alerts  
+
+```textoutputs = gemma_lm.generate(prompts, max_length=100)
+
+---
+
+├── Virtual Environment (.venv)for prompt, output in zip(prompts, outputs):
+
+## Model Performance
+
+├── Environment Variables (.env)    print(f"Q: {prompt}\nA: {output}\n")
+
+### Gemma 2B Benchmarks
+
+├── Package Management (pip, requirements.txt)```
+
+| Task | Benchmark | Score |
+
+|------|-----------|-------|└── Version Control (Git, .gitignore)
+
+| General Knowledge | MMLU | 42.3 |
+
+| Commonsense Reasoning | HellaSwag | 71.4 |```## 🎓 Course Information
+
+| Code Generation | HumanEval | 22.0 |
+
+| Mathematical Reasoning | GSM8K | 17.7 |
+
+
+
+### Gemma 2B vs 7B Comparison---### Schedule
+
+
+
+| Feature | Gemma 2B | Gemma 7B |- **Start**: Sunday, November 9, 2025
+
+|---------|----------|----------|
+
+| **Parameters** | 2 billion | 7 billion |## 📁 Project Structure- **Duration**: 5 days
+
+| **RAM Required** | 8GB+ | 16GB+ |
+
+| **Speed** | Faster inference | Slower, higher quality |- **Live Sessions**: Monday-Friday, 11 AM PT / 8 PM CET / 12:30 AM IST
+
+| **Use Case** | Edge devices, rapid prototyping | Production applications |
+
+```text- **Platform**: [Kaggle](https://www.kaggle.com)
+
+---
+
+Gemma_Kaggle_Notebook/
+
+## Resources
+
+├── 📓 Notebooks### Daily Format
+
+### Official Documentation
+
+│   ├── setup.ipynb                 # Environment verification & API testing1. New assignments posted daily
+
+[Gemma on Kaggle](https://www.kaggle.com/models/google/gemma)  
+
+[Keras Hub Documentation](https://keras.io/keras_hub/)  │   ├── gemma_quickstart.ipynb      # Comprehensive Gemma tutorial2. Materials include whitepapers, codelabs, podcasts
+
+[Gemma Model Card](https://ai.google.dev/gemma)  
+
+[Responsible AI Toolkit](https://ai.google.dev/responsible)  │   └── ai_agents_course.ipynb      # 5-day course structure3. Live YouTube sessions with Google researchers
+
+
+
+### Course Materials│4. Discord discussions and Q&A
+
+
+
+[Kaggle Course Page](https://www.kaggle.com)  ├── 📚 Documentation5. Optional capstone project on Day 5
+
+[Kaggle Discord Community](https://discord.gg/kaggle)  
+
+[YouTube Livestreams](https://www.youtube.com/kaggle)  │   ├── README.md                   # This file
+
+
+
+---│   ├── COURSE_INFO.md              # Course schedule & checklist### Discord Channels
+
+
+
+## Safety and Ethics│   ├── GEMMA_INFO.md               # Technical reference- `#5dgai-announcements` - Official announcements
+
+
+
+Gemma models have been evaluated for content safety, bias and fairness, factual accuracy, and privacy protection with PII filtered from training data.│   ├── GETTING_STARTED.md          # Setup guide- `#5dgai-introductions` - Meet other participants
+
+
+
+**Important**: Always verify generated content and implement appropriate safety measures for production use.│   ├── PROJECT_SUMMARY.md          # Progress tracking- `#5dgai-question-forum` - Ask questions
+
+
+
+---│   └── QUICK_REFERENCE.md          # Command reference- `#5dgai-general-chat` - General discussion
+
+
+
+## Contributing│
+
+
+
+This is a personal learning repository by **Eric 'Hunter' Petross** of **StrayDog Syndications LLC** for the 5-Day AI Agents course. Feel free to fork and adapt for your own learning journey.├── ⚙️ Configuration## 🛠️ Key Technologies
+
+
+
+---│   ├── requirements.txt            # Python dependencies
+
+
+
+## License│   ├── .env.example                # Environment template- **Keras 3** - Multi-backend deep learning framework
+
+
+
+**Code**: MIT License (see LICENSE file)  │   ├── .gitignore                  # Git exclusions- **Keras Hub** - Pre-trained model library
+
+**Gemma Models**: [Gemma Terms of Use](https://ai.google.dev/gemma/terms)
 
 │   ├── .markdownlint.json          # Linting config- **JAX** - High-performance numerical computing (recommended backend)
 
+---
+
 │   └── install.py                  # Automated setup script- **Google Generative AI** - API for Google's AI models
+
+## Acknowledgments
 
 │- **Jupyter** - Interactive notebook environment
 
+**Course Team**
+
 ├── 🔒 Security (gitignored)
 
-│   ├── .env                        # API keys (create from .env.example)## 📦 Dependencies
+Google AI - Gemma models and course development  
+
+Kaggle - Platform and community support  │   ├── .env                        # API keys (create from .env.example)## 📦 Dependencies
+
+Discord Community - Peer learning and collaboration  
 
 │   └── .venv/                      # Virtual environment
 
+**My Learning Journey**
+
 │Main packages (see `requirements.txt` for full list):
 
-└── 📄 License & Metadata
+Part of ongoing AI/ML mastery through StrayDog Syndications LLC  
+
+Building practical skills in production AI agent development  └── 📄 License & Metadata
+
+Contributing to open-source AI learning resources  
 
     └── LICENSE                     # MIT License```
 
-```keras>=3.0.0
+**Eric 'Hunter' Petross**  
 
-keras-hub
+*StrayDog Syndications LLC*```keras>=3.0.0
 
----jax[cpu]
 
-google-generativeai
 
-## 🚀 Quick Startnumpy
+---keras-hub
 
-pandas
+
+
+<div align="center">---jax[cpu]
+
+
+
+**Next Steps**: Review course materials → Run setup notebook → Join Discord communitygoogle-generativeai
+
+
+
+[⬆ Back to Top](#gemma-ai-agents-course)## 🚀 Quick Startnumpy
+
+
+
+</div>pandas
+
 
 ### Prerequisitesjupyter
 

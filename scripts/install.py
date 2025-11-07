@@ -46,8 +46,10 @@ def check_python_version():
 
 def create_env_file():
     """Create .env file from template if it doesn't exist"""
-    env_file = Path(".env")
-    env_example = Path(".env.example")
+    # Get the project root directory (parent of scripts/)
+    project_root = Path(__file__).parent.parent
+    env_file = project_root / ".env"
+    env_example = project_root / "config" / ".env.example"
     
     if env_file.exists():
         print("✓ .env file already exists")
@@ -65,7 +67,7 @@ def create_env_file():
             print(f"✗ Failed to create .env file: {e}")
             return False
     else:
-        print("⚠ .env.example not found, skipping .env creation")
+        print("⚠ config/.env.example not found, skipping .env creation")
         return True
 
 def main():
@@ -117,9 +119,9 @@ def main():
     print("1. Edit .env and add your GOOGLE_API_KEY")
     print("   Get key from: https://aistudio.google.com/app/apikey")
     print("\n2. Run setup verification:")
-    print("   jupyter notebook setup.ipynb")
+    print("   jupyter notebook notebooks/setup.ipynb")
     print("\n3. Review the getting started guide:")
-    print("   Open GETTING_STARTED.md")
+    print("   Open docs/GETTING_STARTED.md")
     print("\n4. Join Discord:")
     print("   https://discord.gg/kaggle")
     print("=" * 60 + "\n")
