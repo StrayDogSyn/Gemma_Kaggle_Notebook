@@ -666,7 +666,7 @@ Gemma 7B (For production workloads)
 
 ## 🤝 Contributing
 
-This is a personal learning repository, but feedback and suggestions are welcome!
+This is a personal learning repository by **Eric 'Hunter' Petross** of **StrayDog Syndications LLC**, but feedback and suggestions are welcome!
 
 ### Ways to Contribute
 1. 🐛 **Report Issues**: Found a bug? [Open an issue](https://github.com/StrayDogSyn/Gemma_Kaggle_Notebook/issues)
@@ -727,6 +727,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - 📚 **Focus**: Production-ready implementations
 - 🌱 **Growth**: From fundamentals to advanced
 - 🤝 **Community**: Active learning and sharing
+
+**Eric 'Hunter' Petross**  
+*StrayDog Syndications LLC*
 
 *This represents a significant milestone in my AI/ML learning path.*
 
