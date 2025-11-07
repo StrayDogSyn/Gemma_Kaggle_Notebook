@@ -1,0 +1,36 @@
+# Keras and Gemma Model Dependencies
+keras>=3.0.0
+keras-hub
+keras-nlp
+
+# Backend support (choose one or more)
+jax[cpu]  # For JAX backend
+# tensorflow>=2.15.0  # Uncomment for TensorFlow backend
+# torch>=2.0.0  # Uncomment for PyTorch backend
+
+# Google AI and Generative AI
+google-generativeai
+google-ai-generativelanguage
+
+# Environment management
+python-dotenv
+
+# Data science and ML
+numpy
+pandas
+matplotlib
+seaborn
+
+# Jupyter
+jupyter
+ipykernel
+ipywidgets
+
+# Additional packages for AI agents and NLP
+requests
+aiohttp
+tqdm
+sentencepiece  # For tokenization
+
+# Model evaluation and benchmarking
+scikit-learn
