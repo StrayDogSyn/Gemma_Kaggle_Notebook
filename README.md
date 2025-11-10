@@ -233,7 +233,8 @@ Monitor usage and set alerts
 
 [Kaggle Course Page](https://www.kaggle.com)  
 [Kaggle Discord Community](https://discord.gg/kaggle)  
-[YouTube Livestreams](https://www.youtube.com/kaggle)
+[YouTube Livestreams](https://www.youtube.com/kaggle)  
+**[Course NotebookLM](https://notebooklm.google.com/notebook/05b7bc62-fd9e-4f0e-a83f-cc9a8ab209bf)** - AI-generated podcast companions
 
 ## Safety and Ethics
 

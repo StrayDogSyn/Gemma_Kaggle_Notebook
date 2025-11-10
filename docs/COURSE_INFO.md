@@ -17,6 +17,17 @@
 3. **Live Sessions**: YouTube livestreams with Google researchers and special guests (NVIDIA, Cohere, etc.)
 4. **Recordings**: Available on Discord after each session
 
+### Course Companion Resources
+
+**NotebookLM Notebook**: [View Course Notebook](https://notebooklm.google.com/notebook/05b7bc62-fd9e-4f0e-a83f-cc9a8ab209bf)
+
+This NotebookLM notebook contains:
+- AI-generated podcast discussions of the whitepapers
+- Interactive Q&A with course materials
+- Source citations and deep dives
+
+💡 **Pro tip**: Listen to the NotebookLM podcast for each day's whitepaper before starting the codelab. It's like having two ML researchers explain the concepts conversationally.
+
 ### Capstone Project (Optional)
 
 - Complete on the final day

@@ -94,6 +94,7 @@ print(response.text)
 - **Kaggle Course**: https://www.kaggle.com
 - **Discord**: https://discord.gg/kaggle
 - **YouTube**: https://www.youtube.com/kaggle
+- **NotebookLM**: https://notebooklm.google.com/notebook/05b7bc62-fd9e-4f0e-a83f-cc9a8ab209bf
 
 ### Documentation
 - **Gemma Models**: https://www.kaggle.com/models/google/gemma

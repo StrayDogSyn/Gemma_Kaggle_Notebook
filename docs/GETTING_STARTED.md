@@ -96,6 +96,15 @@ jupyter notebook setup.ipynb
 - Review whitepaper, codelab, and podcast
 - Start working in `ai_agents_course.ipynb`
 
+### Course Materials (Daily)
+
+Each day you'll receive:
+
+📚 **Whitepaper** - Core technical reading  
+🎙️ **Podcast** - NotebookLM-generated discussion ([Access your notebook](https://notebooklm.google.com/notebook/05b7bc62-fd9e-4f0e-a83f-cc9a8ab209bf))  
+💻 **Codelab** - Hands-on exercises  
+🎥 **Livestream** - Q&A with Google experts
+
 **Days 2-5:**
 - Attend daily livestreams (11 AM PT)
 - Complete daily assignments
