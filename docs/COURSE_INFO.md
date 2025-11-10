@@ -68,13 +68,31 @@
 
 ## Daily Progress Tracker
 
-### Day 1 (Nov 9, 2025)
+### Day 1 (Nov 9, 2025) - Unit 1: Introduction to Agents
 
-- [ ] Assignment received
-- [ ] Whitepaper reviewed
-- [ ] Codelab completed
-- [ ] Podcast listened
-- [ ] Notes taken
+**📚 Materials:**
+- [ ] Listen to summary podcast episode
+- [ ] Read "Introduction to Agents" whitepaper
+  - Taxonomy of agent capabilities
+  - Agent Ops discipline for reliability and governance
+  - Agent interoperability and security
+- [ ] Optional: Add whitepaper to NotebookLM for interactive conversation
+
+**💻 Codelabs on Kaggle:**
+- [ ] Build your first agent using Gemini and ADK
+  - Use Google Search for up-to-date information
+- [ ] Build your first multi-agent systems using ADK
+  - Create teams of specialized agents
+  - Explore different architectural patterns
+
+**✅ Pre-requisites:**
+- [ ] Phone verify Kaggle account (required for codelabs)
+- [ ] Review troubleshooting guide if needed
+
+**📺 Livestream (Nov 10, 11:00 AM PT):**
+- Hosts: Kanchana Patlolla and Anant Nawalgaria
+- Guests: Kristopher Overholt, Hangfei Lin, Alan Blount, Mike Clark, Michael Gerstenhaber, Antonio Gulli
+- Submit questions on Discord for chance to get Kaggle swag!
 
 ### Day 2 (Nov 10, 2025)
 

@@ -28,8 +28,10 @@ pip install -r requirements.txt
 
 **Option B: Install core packages only**
 ```bash
-pip install keras>=3.0.0 keras-hub jax[cpu]
+pip install keras>=3.0.0 keras-hub jax[cpu] tensorflow
 ```
+
+> **Note**: TensorFlow is required by keras-hub even when using JAX as the backend. This is due to internal dependencies in keras-hub.
 
 **For GPU support (if available):**
 ```bash
@@ -151,6 +153,13 @@ Gemma_Kaggle_Notebook/
 ```bash
 pip install --upgrade keras keras-hub
 ```
+
+### Issue: "ModuleNotFoundError: No module named 'tensorflow'"
+**Solution:**
+```bash
+pip install tensorflow
+```
+**Note:** This error occurs when importing keras-hub because it has an internal dependency on TensorFlow, even when using JAX as the backend. Installing TensorFlow resolves this issue.
 
 ### Issue: "JAX backend not available"
 **Solution:**
