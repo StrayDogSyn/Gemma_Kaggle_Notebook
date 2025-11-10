@@ -5,7 +5,7 @@ keras-nlp
 
 # Backend support (choose one or more)
 jax[cpu]  # For JAX backend
-# tensorflow>=2.15.0  # Uncomment for TensorFlow backend
+tensorflow>=2.15.0  # Required by keras-hub even when using JAX backend
 # torch>=2.0.0  # Uncomment for PyTorch backend
 
 # Google AI and Generative AI
